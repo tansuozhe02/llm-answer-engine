@@ -368,7 +368,7 @@ export default function Page() {
       <div className={`px-2 fixed inset-x-0 bottom-0 w-full bg-gradient-to-b duration-300 ease-in-out animate-in dark:from-gray-900/10 dark:from-10% peer-[[data-state=open]]:group-[]:lg:pl-[250px] peer-[[data-state=open]]:group-[]:xl:pl-[300px]] mb-4 bring-to-front`}>
         <div className="mx-auto max-w-xl sm:px-4 ">
           {messages.length === 0 && !inputValue && (
-            <InitialQueries questions={['What is post-occupancy evaluation?', 'How to conduct a post-occupancy evaluation step by step?', 'Write a survey for the patients in the hospital for a post-occupancy evaluation', 'What should is a good indicator of well-being in buildings']} handleFollowUpClick={handleFollowUpClick} />
+            <InitialQueries questions={['What is post-occupancy evaluation?', 'How to conduct a post-occupancy evaluation step by step?', 'Write a survey for the patients in the hospital for a post-occupancy evaluation', 'What is a good indicator of well-being in buildings?']} handleFollowUpClick={handleFollowUpClick} />
           )}
           {mentionQuery && (
             <div className="">
